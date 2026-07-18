@@ -4,7 +4,13 @@
 .DESCRIPTION
     Ermittelt laufende pwsh-Infos, umgeht die fehlerhafte VsDevCmd.bat vollständig
     und injiziert die korrekten MSVC- und SDK-Umgebungsvariablen live via vswhere.exe.
+    Sie sollten aber die PowerShell 7.x benutzen, weil es grundsätzlich effektiver ist.
+    Gathers running pwsh info, completely bypasses the flawed VsDevCmd.bat, 
+    and injects the correct MSVC and SDK environment variables live via vswhere.exe. 
+    However, you should use PowerShell 7.x, as it is fundamentally more efficient.
+
 .EXAMPLE
+              >>>>>  Please use PowerShell 7.x 
     C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File ".\msvc_init.ps1"
 .NOTES 
     Dieses Projekt steht unter der Business Source License 1.1 (BSL 1.1).
@@ -12,6 +18,12 @@
     EDV-Abteilungen (Commercial & Public Sector Use) ist strikt kostenpflichtig!
     Kontakt für Lizenzanfragen: franjo_kiel [at] web [dot] de
     Alles Weitere in den Dateien: BITTE_Lesen.md und LICENSE.md
+    This project is licensed under the Business Source License 1.1 (BSL 1.1).
+    Use in corporate environments, government entities, public authorities, and their 
+    respective IT departments (Commercial & Public Sector Use) is strictly commercial and subject to a fee!
+    Contact for licensing inquiries: franjo_kiel [at] web [dot] de
+    For further details, please refer to the following files: BITTE_Lesen.md and LICENSE.md
+
 .AUTHOR
     https://github.com
 #>
