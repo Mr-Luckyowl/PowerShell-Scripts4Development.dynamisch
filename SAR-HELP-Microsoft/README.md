@@ -62,7 +62,8 @@ Government institutions (authorities, public offices, ministries, state/federal 
 The exclusive place of jurisdiction for any and all legal disputes arising from this license, its use, or misuse of the software is Germany.
 
 ### 6. Licensing Inquiries
-Written inquiries regarding the purchase of licenses, special permissions, or custom corporate quotes must be directed to: franjo_kiel@web.de
+Written inquiries regarding the purchase of licenses, special permissions, or custom corporate quotes must be directed to: franjo_kiel [at] web [dot] de
+
 
 ## Quick Start (PowerShell 7.7+)
 

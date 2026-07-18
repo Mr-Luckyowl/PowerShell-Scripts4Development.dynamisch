@@ -20,4 +20,5 @@ Staatliche Institutionen sowie deren interne EDV-Abteilungen zahlen identische G
 
 ## 5. GERICHTSSTAND & KONTAKT
 Der ausschließliche Gerichtsstand ist Deutschland.  
-Schriftliche Anfragen direkt an: franjo_kiel@web.de
+
+Written inquiries regarding the purchase of licenses, special permissions, or custom corporate quotes must be directed to: franjo_kiel [at] web [dot] de
