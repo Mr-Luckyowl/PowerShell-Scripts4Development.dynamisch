@@ -57,6 +57,12 @@ Open your VS Code `settings.json` file and append the profile directly before th
     "terminal.integrated.defaultProfile.windows": "FJF MSVC Core"
 ```
 
+
+![Erster Screenshot](images/Developer_PowerShell-without-Microsoft-batch-Nonsense.png)
+
+![Zweiter Screenshot](images/Developer-PowerShell_Insert_to_CLI_SETUP.png)
+
+
 ---
 
 ## ⚖️ License & Commercial Pricing
