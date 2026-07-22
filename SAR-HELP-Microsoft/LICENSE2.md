@@ -12,9 +12,7 @@ STRICTLY PROHIBITED: Porting, converting, compiling, mimicking, or translating t
 Die Nutzung, der Download, die Ausführung, die Weitergabe oder die Integration dieser Software innerhalb der Volksrepublik China (einschließlich Hongkong und Macau), durch chinesische Staatsbürger, chinesische Unternehmen oder Institutionen ist STRIKT UNTERSAGT.
 
 ## 4. KOMMERZIELLE LIZENZGEBÜHREN / COMMERCIAL FEES
-- Unternehmen bis zu 100 Angestellten: 1.000 USD
-- Unternehmen von 101 bis 500 Angestellten: 5.050 USD
-- Unternehmen ab 501 Angestellten (Enterprise): 15.000 USD
+siehe übergeordneten HINWEIS!
 
 Staatliche Institutionen sowie deren interne EDV-Abteilungen zahlen identische Gebühren.
 
