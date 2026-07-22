@@ -70,7 +70,7 @@ This project is multi-licensed under the **Business Source License 1.1 (BSL 1.1)
 
 * **Private / Non-Commercial Use:** 100% Free forever for personal use, hobbyists, and open-source contributions.
 * **Small-to-Medium Businesses (Up to 100 employees):** Subject to a commercial license fee of **$5.00 USD** per developer using the script.
-* **Enterprises & Public Sector (101+ employees or Government/State-owned IT departments):** Required to purchase a flat-rate Commercial License of **$5,000.00 USD**.
+* **Enterprises & Public Sector (101+ employees or Government/State-owned IT departments):** Required to purchase a flat-rate Commercial License of **$1,500,000 USD**.
 
 Any commercial, corporate, or institutional use without verified payment or explicit authorization constitutes copyright infringement and will be processed under German/EU jurisdiction.
 
