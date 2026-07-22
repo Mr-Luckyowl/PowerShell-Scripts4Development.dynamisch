@@ -1,0 +1,231 @@
+[
+  {
+    "Message": "File 'checkb-OpenConsole.ps1' uses Write-Host. Avoid using Write-Host because it might not work in all hosts, does not work when there is no host, and (prior to PS 5.0) cannot be suppressed, captured, or redirected. Instead, use Write-Output, Write-Verbose, or Write-Information.",
+    "Extent": {
+      "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+      "StartScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 1,
+        "ColumnNumber": 1,
+        "Line": "Write-Host \"--- PRÜFUNG DER .NET KOMPONENTEN ---\" -ForegroundColor Gray\r\n",
+        "Offset": 0
+      },
+      "EndScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 1,
+        "ColumnNumber": 72,
+        "Line": "Write-Host \"--- PRÜFUNG DER .NET KOMPONENTEN ---\" -ForegroundColor Gray\r\n",
+        "Offset": 71
+      },
+      "StartLineNumber": 1,
+      "StartColumnNumber": 1,
+      "EndLineNumber": 1,
+      "EndColumnNumber": 72,
+      "Text": "Write-Host \"--- PRÜFUNG DER .NET KOMPONENTEN ---\" -ForegroundColor Gray",
+      "StartOffset": 0,
+      "EndOffset": 71
+    },
+    "RuleName": "PSAvoidUsingWriteHost",
+    "Severity": 1,
+    "ScriptName": "checkb-OpenConsole.ps1",
+    "ScriptPath": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+    "RuleSuppressionID": null,
+    "SuggestedCorrections": null,
+    "IsSuppressed": false,
+    "Line": 1,
+    "Column": 1
+  },
+  {
+    "Message": "File 'checkb-OpenConsole.ps1' uses Write-Host. Avoid using Write-Host because it might not work in all hosts, does not work when there is no host, and (prior to PS 5.0) cannot be suppressed, captured, or redirected. Instead, use Write-Output, Write-Verbose, or Write-Information.",
+    "Extent": {
+      "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+      "StartScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 8,
+        "ColumnNumber": 4,
+        "Line": "   Write-Host \"Installierte globale .NET SDKs:\" -ForegroundColor Yellow\r\n",
+        "Offset": 268
+      },
+      "EndScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 8,
+        "ColumnNumber": 72,
+        "Line": "   Write-Host \"Installierte globale .NET SDKs:\" -ForegroundColor Yellow\r\n",
+        "Offset": 336
+      },
+      "StartLineNumber": 8,
+      "StartColumnNumber": 4,
+      "EndLineNumber": 8,
+      "EndColumnNumber": 72,
+      "Text": "Write-Host \"Installierte globale .NET SDKs:\" -ForegroundColor Yellow",
+      "StartOffset": 268,
+      "EndOffset": 336
+    },
+    "RuleName": "PSAvoidUsingWriteHost",
+    "Severity": 1,
+    "ScriptName": "checkb-OpenConsole.ps1",
+    "ScriptPath": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+    "RuleSuppressionID": null,
+    "SuggestedCorrections": null,
+    "IsSuppressed": false,
+    "Line": 8,
+    "Column": 4
+  },
+  {
+    "Message": "File 'checkb-OpenConsole.ps1' uses Write-Host. Avoid using Write-Host because it might not work in all hosts, does not work when there is no host, and (prior to PS 5.0) cannot be suppressed, captured, or redirected. Instead, use Write-Output, Write-Verbose, or Write-Information.",
+    "Extent": {
+      "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+      "StartScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 11,
+        "ColumnNumber": 4,
+        "Line": "   Write-Host \"WARNUNG: Globale dotnet.exe unter C:\\Program Files\\dotnet nicht gefunden!\" -ForegroundColor Red\r\n",
+        "Offset": 367
+      },
+      "EndScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 11,
+        "ColumnNumber": 111,
+        "Line": "   Write-Host \"WARNUNG: Globale dotnet.exe unter C:\\Program Files\\dotnet nicht gefunden!\" -ForegroundColor Red\r\n",
+        "Offset": 474
+      },
+      "StartLineNumber": 11,
+      "StartColumnNumber": 4,
+      "EndLineNumber": 11,
+      "EndColumnNumber": 111,
+      "Text": "Write-Host \"WARNUNG: Globale dotnet.exe unter C:\\Program Files\\dotnet nicht gefunden!\" -ForegroundColor Red",
+      "StartOffset": 367,
+      "EndOffset": 474
+    },
+    "RuleName": "PSAvoidUsingWriteHost",
+    "Severity": 1,
+    "ScriptName": "checkb-OpenConsole.ps1",
+    "ScriptPath": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+    "RuleSuppressionID": null,
+    "SuggestedCorrections": null,
+    "IsSuppressed": false,
+    "Line": 11,
+    "Column": 4
+  },
+  {
+    "Message": "File 'checkb-OpenConsole.ps1' uses Write-Host. Avoid using Write-Host because it might not work in all hosts, does not work when there is no host, and (prior to PS 5.0) cannot be suppressed, captured, or redirected. Instead, use Write-Output, Write-Verbose, or Write-Information.",
+    "Extent": {
+      "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+      "StartScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 16,
+        "ColumnNumber": 1,
+        "Line": "Write-Host \"`nPrüfe .NET Framework 4.7.2 Targeting Pack...\" -ForegroundColor Yellow\r\n",
+        "Offset": 667
+      },
+      "EndScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 16,
+        "ColumnNumber": 84,
+        "Line": "Write-Host \"`nPrüfe .NET Framework 4.7.2 Targeting Pack...\" -ForegroundColor Yellow\r\n",
+        "Offset": 750
+      },
+      "StartLineNumber": 16,
+      "StartColumnNumber": 1,
+      "EndLineNumber": 16,
+      "EndColumnNumber": 84,
+      "Text": "Write-Host \"`nPrüfe .NET Framework 4.7.2 Targeting Pack...\" -ForegroundColor Yellow",
+      "StartOffset": 667,
+      "EndOffset": 750
+    },
+    "RuleName": "PSAvoidUsingWriteHost",
+    "Severity": 1,
+    "ScriptName": "checkb-OpenConsole.ps1",
+    "ScriptPath": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+    "RuleSuppressionID": null,
+    "SuggestedCorrections": null,
+    "IsSuppressed": false,
+    "Line": 16,
+    "Column": 1
+  },
+  {
+    "Message": "File 'checkb-OpenConsole.ps1' uses Write-Host. Avoid using Write-Host because it might not work in all hosts, does not work when there is no host, and (prior to PS 5.0) cannot be suppressed, captured, or redirected. Instead, use Write-Output, Write-Verbose, or Write-Information.",
+    "Extent": {
+      "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+      "StartScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 19,
+        "ColumnNumber": 4,
+        "Line": "   Write-Host \"Vorhanden unter: $TargetingPackPath\" -ForegroundColor Green\r\n",
+        "Offset": 794
+      },
+      "EndScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 19,
+        "ColumnNumber": 75,
+        "Line": "   Write-Host \"Vorhanden unter: $TargetingPackPath\" -ForegroundColor Green\r\n",
+        "Offset": 865
+      },
+      "StartLineNumber": 19,
+      "StartColumnNumber": 4,
+      "EndLineNumber": 19,
+      "EndColumnNumber": 75,
+      "Text": "Write-Host \"Vorhanden unter: $TargetingPackPath\" -ForegroundColor Green",
+      "StartOffset": 794,
+      "EndOffset": 865
+    },
+    "RuleName": "PSAvoidUsingWriteHost",
+    "Severity": 1,
+    "ScriptName": "checkb-OpenConsole.ps1",
+    "ScriptPath": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+    "RuleSuppressionID": null,
+    "SuggestedCorrections": null,
+    "IsSuppressed": false,
+    "Line": 19,
+    "Column": 4
+  },
+  {
+    "Message": "File 'checkb-OpenConsole.ps1' uses Write-Host. Avoid using Write-Host because it might not work in all hosts, does not work when there is no host, and (prior to PS 5.0) cannot be suppressed, captured, or redirected. Instead, use Write-Output, Write-Verbose, or Write-Information.",
+    "Extent": {
+      "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+      "StartScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 21,
+        "ColumnNumber": 4,
+        "Line": "   Write-Host \"WARNUNG: .NET Framework 4.7.2 Targeting Pack fehlt! C++ Tests werden fehlschlagen.\" -ForegroundColor Red\r\n",
+        "Offset": 880
+      },
+      "EndScriptPosition": {
+        "File": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+        "LineNumber": 21,
+        "ColumnNumber": 120,
+        "Line": "   Write-Host \"WARNUNG: .NET Framework 4.7.2 Targeting Pack fehlt! C++ Tests werden fehlschlagen.\" -ForegroundColor Red\r\n",
+        "Offset": 996
+      },
+      "StartLineNumber": 21,
+      "StartColumnNumber": 4,
+      "EndLineNumber": 21,
+      "EndColumnNumber": 120,
+      "Text": "Write-Host \"WARNUNG: .NET Framework 4.7.2 Targeting Pack fehlt! C++ Tests werden fehlschlagen.\" -ForegroundColor Red",
+      "StartOffset": 880,
+      "EndOffset": 996
+    },
+    "RuleName": "PSAvoidUsingWriteHost",
+    "Severity": 1,
+    "ScriptName": "checkb-OpenConsole.ps1",
+    "ScriptPath": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+    "RuleSuppressionID": null,
+    "SuggestedCorrections": null,
+    "IsSuppressed": false,
+    "Line": 21,
+    "Column": 4
+  },
+  {
+    "Message": "Missing BOM encoding for non-ASCII encoded file 'checkb-OpenConsole.ps1'",
+    "Extent": null,
+    "RuleName": "PSUseBOMForUnicodeEncodedFile",
+    "Severity": 1,
+    "ScriptName": "checkb-OpenConsole.ps1",
+    "ScriptPath": "D:\\Dev\\terminal-1.25.1322.0\\checkb-OpenConsole.ps1",
+    "RuleSuppressionID": null,
+    "SuggestedCorrections": null,
+    "IsSuppressed": false,
+    "Line": null,
+    "Column": null
+  }
+]
