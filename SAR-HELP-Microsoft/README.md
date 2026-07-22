@@ -23,9 +23,7 @@ Die Nutzung, der Download, die Ausführung, die Weitergabe oder die Integration 
 
 ### 3. Kommerzielle Lizenzgebühren
 Jede kommerzielle Nutzung oder Bereitstellung in unternehmerischen, industriellen oder administrativen Umgebungen ist kostenpflichtig. Die Preisstaffelung pro Lizenz gestaltet sich wie folgt:
-- Unternehmen bis zu 100 Angestellten: 1.000 USD
-- Unternehmen von 101 bis 500 Angestellten: 5.050 USD
-- Unternehmen ab 501 Angestellten (Enterprise): 15.000 USD
+Siehe übergeordnete HINWEISE.
 
 ### 4. Staatlicher Sektor & Öffentliche Institutionen
 Staatliche Institutionen (Behörden, Ämter, Ministerien, Landes- und Bundesbetriebe) sowie deren interne EDV-Abteilungen, Rechenzentren und IT-Dienstleister sind von jeglicher kostenfreien Nutzung explizit ausgeschlossen. Für diesen Sektor gelten die identischen kommerziellen Lizenzgebühren, basierend auf der Mitarbeiteranzahl der jeweiligen Dienststelle oder Abteilung.
@@ -51,9 +49,7 @@ The use, download, execution, distribution, or integration of this software with
 
 ### 3. Commercial Licensing Fees
 Any commercial use, integration, or deployment within corporate, industrial, or administrative environments requires a paid license. The pricing structure per license is defined as follows:
-- Companies up to 100 employees: 1,000 USD
-- Companies from 101 to 500 employees: 5,050 USD
-- Companies with 501+ employees (Enterprise): 15,000 USD
+Please see upper changes!
 
 ### 4. Government & Public Sector Rules
 Government institutions (authorities, public offices, ministries, state/federal entities) as well as their internal IT departments, data centers, and IT service providers are explicitly excluded from any free usage scenarios. The identical commercial licensing fees apply to this sector, based on the total number of employees within the respective department or agency.
