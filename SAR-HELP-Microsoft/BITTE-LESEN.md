@@ -11,9 +11,7 @@ Die Nutzung, der Download, die Ausführung, die Weitergabe oder die Integration 
 
 3. KOMMERZIELLE LIZENZGEBÜHREN
 Jede kommerzielle Nutzung oder Bereitstellung in unternehmerischen, industriellen oder administrativen Umgebungen ist kostenpflichtig. Die Preisstaffelung pro Lizenz gestaltet sich wie folgt:
-- Unternehmen bis zu 100 Angestellten: 1.000 USD
-- Unternehmen von 101 bis 500 Angestellten: 5.050 USD
-- Unternehmen ab 501 Angestellten (Enterprise): 15.000 USD
+Siehe obere HINWEISE zu Lizenzen.
 
 4. STAATLICHER Sektor & ÖFFENTLICHE INSTITUTIONEN
 Staatliche Institutionen (Behörden, Ämter, Ministerien, Landes- und Bundesbetriebe) sowie deren interne EDV-Abteilungen, Rechenzentren und IT-Dienstleister sind von jeglicher kostenfreien Nutzung explizit ausgeschlossen. Für diesen Sektor gelten die identischen kommerziellen Lizenzgebühren, basierend auf der Mitarbeiteranzahl der jeweiligen Dienststelle oder Abteilung.
