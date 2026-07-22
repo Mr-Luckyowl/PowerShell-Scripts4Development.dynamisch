@@ -11,9 +11,7 @@ The use, download, execution, distribution, or integration of this software with
 
 3. COMMERCIAL LICENSING FEES
 Any commercial use, integration, or deployment within corporate, industrial, or administrative environments requires a paid license. The pricing structure per license is defined as follows:
-- Companies up to 100 employees: 1,000 USD
-- Companies from 101 to 500 employees: 5,050 USD
-- Companies with 501+ employees (Enterprise): 15,000 USD
+New changes, please see upper Notes!
 
 4. GOVERNMENT & PUBLIC SECTOR RULES
 Government institutions (authorities, public offices, ministries, state/federal entities) as well as their internal IT departments, data centers, and IT service providers are explicitly excluded from any free usage scenarios. The identical commercial licensing fees apply to this sector, based on the total number of employees within the respective department or agency.
