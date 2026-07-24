@@ -21,7 +21,7 @@
 
 if ($PSVersionTable.PSVersion.Major -lt 7) {
     Clear-Host
-    [Console]::WriteLine("FEHLER: DIESES SKRIPT ERFORDERT POWERSHELL 7 (pwsh) ODER HÖHER!")
+    [Console]::WriteLine("Error: This script needs POWERSHELL 7 (pwsh) or higher!")
     return
 }
 
@@ -31,8 +31,8 @@ $dbFile = Join-Path -Path $PSScriptRoot -ChildPath "terminal-classes.db"
 if (-not (Test-Path $dbFile)) {
     Clear-Host
     [Console]::WriteLine("======================================================================")
-    [Console]::WriteLine("FEHLER: Die Datenbankdatei 'terminal-classes.db' wurde nicht gefunden!")
-    [Console]::WriteLine("Bitte starte zuerst das Analyse-Skript 'SAR-help-Microsoft.ps1'.")
+    [Console]::WriteLine("Error: Databasefile was not found 'terminal-classes.db'              !")
+    [Console]::WriteLine("Please run first analyze script 'SAR-help-Microsoft.ps1'.             ")
     [Console]::WriteLine("======================================================================")
     return
 }
@@ -44,11 +44,11 @@ Clear-Host
 [Console]::WriteLine(" Copyright (c) 2026 by github Mr-Luckyowl. All rights reserved."       )
 [Console]::WriteLine(" Licensed under Business Source License 1.1 (BSL 1.1)"                 )
 [Console]::WriteLine("======================================================================")
-[Console]::WriteLine("Hinweis: Wildcards sind erlaubt, z.B. *Terminal* oder *Renderer*)")
-$searchQuery = Read-Host "Gesuchter C++ Klassenname"
+[Console]::WriteLine("Hinweis/ notes: wildcards allowed, e.g *Terminal* oder *Renderer*)    ")
+$searchQuery = Read-Host "searchable C++ class name"
 
 if ([string]::IsNullOrEmpty($searchQuery)) {
-    [Console]::WriteLine("Suche abgebrochen / search interrupted. Keine Eingabe erhalten.")
+    [Console]::WriteLine("Suche abgebrochen / search interrupted. No Input.                 ")
     return
 }
 
@@ -56,7 +56,7 @@ if ([string]::IsNullOrEmpty($searchQuery)) {
 $sqlSearch = $searchQuery -replace '\*', '%'
 
 [Console]::WriteLine("----------------------------------------------------------------------")
-[Console]::WriteLine("Suche läuft in indizierten Datensätzen..."                             )
+[Console]::WriteLine("Searching for index..."                                                )
 [Console]::WriteLine("----------------------------------------------------------------------")
 
 # SQL-Abfrage an SQLite abfeuern (Nutzt COALESCE für echte NULL-Werte)
@@ -65,8 +65,8 @@ $query = "SELECT class_name AS 'Klasse', COALESCE(base_class, '---') AS 'Erbt vo
 if (Get-Command sqlite3 -ErrorAction SilentlyContinue) {
     sqlite3 -header -column $dbFile $query
 } else {
-    [Console]::WriteLine("FEHLER: 'sqlite3' ist auf diesem System nicht installiert.")
+    [Console]::WriteLine("Error: 'sqlite3' not found.")
 }
 
 [Console]::WriteLine("----------------------------------------------------------------------")
-[Console]::WriteLine("Suche beendet.")
+[Console]::WriteLine("Searching ends.")

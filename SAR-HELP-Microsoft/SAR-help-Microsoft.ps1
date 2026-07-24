@@ -21,19 +21,19 @@
 
 # 1. LIZENZ-, PREIS- UND COPYRIGHT-ANZEIGE AM START
 Clear-Host
-[Console]::WriteLine("=====================================================================")
-[Console]::WriteLine(" SAR-HELP-MICROSOFT -- PROFI ARCHITEKTUR SCANNER (CLEAN CODE ONLY)")
-[Console]::WriteLine(" Copyright (c) 2026 by github Mr-Luckyowl. All rights reserved.")
-[Console]::WriteLine(" Licensed under Business Source License 1.1 (BSL 1.1)")
-[Console]::WriteLine("---------------------------------------------------------------------")
-[Console]::WriteLine(" GEGENDEM GERICHTSSTAND: Deutschland. Anfragen an: franjo_kiel@web.de")
+[Console]::WriteLine("===================================================================")
+[Console]::WriteLine(" SAR-HELP-MICROSOFT -- PROFI ARCHITEKTUR SCANNER (CLEAN CODE ONLY) ")
+[Console]::WriteLine(" Copyright (c) 2026 by github Mr-Luckyowl. All rights reserved."    )
+[Console]::WriteLine(" Licensed under Business Source License 1.1 (BSL 1.1)"              )
+[Console]::WriteLine("-------------------------------------------------------------------")
+[Console]::WriteLine(" GEGEBENER GERICHTSSTAND: Deutschland. Anfragen an: franjo_kiel@web.de")
 [Console]::WriteLine(" GEOGRAFISCHER AUSSCHLUSS: VR China (inkl. HK/Macau) ist STRIKT GEBANNT.")
-[Console]::WriteLine(" HINWEIS: Portierung in C# ohne Lizenz ist streng verboten.")
-[Console]::WriteLine("=====================================================================")
+[Console]::WriteLine(" HINWEIS: Portierung in C# ohne Lizenz ist strengstens verboten."    )
+[Console]::WriteLine("=====================================================================")   
 
 # 2. HARDENING: VERSIONS-PRÜFUNG
 if ($PSVersionTable.PSVersion.Major -lt 7) {
-    [Console]::WriteLine("FEHLER: DIESES SKRIPT ERFORDERT POWERSHELL 7 (pwsh) ODER HÖHER!")
+    [Console]::WriteLine("ERROR: THIs SCRIPT needs POWERSHELL 7 (pwsh) or higher!")
     return
 }
 
@@ -57,14 +57,14 @@ if (Test-Path $outputDb) {
         Remove-Item -Path $outputDb -Force -ErrorAction Stop
     } catch {
         [Console]::WriteLine("======================================================================")
-        [Console]::WriteLine("WARNUNG: DIE DATENBANK WIRD AKTUELL BLOCKIERT!")
-        [Console]::WriteLine("Bitte schließe den 'DB Browser for SQLite' oder dein Suchskript.")
+        [Console]::WriteLine("Alert: DATABASE IS STILL BLOCKED!")
+        [Console]::WriteLine("Please close 'DB Browser for SQLite' or your SAR-search-Microsoft.ps1.")
         [Console]::WriteLine("======================================================================")
-        $null = Read-Host "Drücke ENTER, sobald du das Tool geschlossen hast, um fortzufahren..."
+        $null = Read-Host "Press ENTER, if you have closed, in order to go ahead..."
         try {
             Remove-Item -Path $outputDb -Force -ErrorAction Stop
         } catch {
-            [Console]::WriteLine("FEHLER: Datei immer noch blockiert. Abbruch.")
+            [Console]::WriteLine("ERROR: file still opened. CANCEL.")
             return
         }
     }
@@ -84,11 +84,11 @@ $headers = $allHeaders | Where-Object {
 
 $totalFiles = $headers.Count
 if ($totalFiles -eq 0) {
-    [Console]::WriteLine("FEHLER: Keine echten C++ Header-Dateien gefunden!")
+    [Console]::WriteLine("ERROR: No real C++ Header files found!")
     return
 }
 
-[Console]::WriteLine("$totalFiles echte, handgeschriebene Header-Dateien isoliert. Multi-CPU-Scan läuft...")
+[Console]::WriteLine("$totalFiles real, Header files separated. Multi-CPU-Scan is working and running...")
 $scanTimer = [System.Diagnostics.Stopwatch]::StartNew()
 
 # Temporäre CSV initialisieren
@@ -140,14 +140,14 @@ $headers | ForEach-Object -Parallel {
     $current = [System.Threading.Interlocked]::Increment([ref]$using:globalCounter)
     if ($current % 100 -eq 0 -or $current -eq $total) {
         $percent = [math]::Round(($current / $total) * 100, 1)
-        [Console]::WriteLine("--> Fortschritt: $current von $total echten Dateien verarbeitet ($percent%)")
+        [Console]::WriteLine("Goal to end--> : $current von $total real files found ($percent%)")
     }
 } -ThrottleLimit ([Environment]::ProcessorCount)
 
 $scanTimer.Stop()
 [Console]::WriteLine("----------------------------------------------------------------------")
-[Console]::WriteLine("Datei-Scan beendet. Dauer: $($scanTimer.Elapsed.ToString('hh\:mm\:ss'))")
-[Console]::WriteLine("Sortiere saubere Architektur und baue SQL-Struktur...")
+[Console]::WriteLine("Scanning ends. how long it took: $($scanTimer.Elapsed.ToString('hh\:mm\:ss'))")
+[Console]::WriteLine("sort and building clean SQL-structure...")
 [Console]::WriteLine("----------------------------------------------------------------------")
 
 # 6. SAUBERE SQL-GENERIERUNG MIT INLINE-COPYRIGHTS FÜR MR-LUCKYOWL
@@ -198,8 +198,8 @@ if (Test-Path $tempCsv) {
         [Console]::WriteLine("Bereinigte Profi-Datenbank erfolgreich versiegelt: $outputDb")
     }
     [Console]::WriteLine("======================================================================")
-    [Console]::WriteLine(" ABSOLUT ERFOLGREICH BEENDET! KEIN MS-GENERAT-MÜLL MEHR VORHANDEN.")
+    [Console]::WriteLine(" SUCCESSFUL! NO MS-GENERAT-BLACKHOLE ."                                )
     [Console]::WriteLine("======================================================================")
 } else {
-    [Console]::WriteLine("FEHLER: Keine echten Klassen extrahiert.")
+    [Console]::WriteLine("ERROR: SORRY, no real classes detected.")
 }
